@@ -2,9 +2,9 @@ describe Person do
 
   let(:beyonce) { Person.new("Beyonce") }
   let(:jay_z) { Person.new("Jay-Z") }
-
+ 
   describe "#get_married" do
-    
+
     context "when passed a Person instance as an argument" do
       it "sets the the partners of each person" do
         beyonce.get_married(jay_z)
